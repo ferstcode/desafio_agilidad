@@ -1,0 +1,7 @@
+<ul>
+  <% @bought_products.each do |bought| %>
+    <li>
+      <%= "#{bought.product.name} - #{bought.product.price}" %>
+    </li>
+  <% end %>
+</ul>
